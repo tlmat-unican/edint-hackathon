@@ -1,0 +1,17 @@
+site_name: Hackathon EDINT Santander - Datos que transforman ciudades
+theme:
+  name: material
+  palette:
+    primary: indigo
+    accent: amber
+nav:
+  - Inicio: index.md
+  - Bases de Participación: https://www.santander.es/system/files/servicio-ciudadano-empresa/anexo/2026/05/basesparticipacionhackatonedint_040526.pdf
+  - Catálogo de Datos:
+    - Caso 1 - Movilidad Inteligente: movilidad.md
+    - Caso 2 - Sostenibilidad Medioambiental: medioambiente.md
+    - Caso 3 - Actividad Económica: economia.md
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
