@@ -59,7 +59,7 @@ Información sobre el consumo de energía en el norte de España, proporcionada 
 
 ## Información geográfica de Cantabria y Santander
 
-Información geográfica de Cantabria. La descripción detallada del API y cómo acceder a través de programas gratuitos como ArcGIS se encuentra en `https://www.territoriodecantabria.es/rest-api`, y el API REST puede encontrarse directamente en `https://geoservicios.cantabria.es/inspire/rest/services`. Se puede encontrar en formato GIS el siguiente ejemplo:
+Información geográfica de Cantabria. La descripción detallada del API y cómo acceder a través de programas gratuitos como ArcGIS se encuentra en <https://www.territoriodecantabria.es/rest-api>, y el API REST puede encontrarse directamente en <https://geoservicios.cantabria.es/inspire/rest/services>. Se puede encontrar en formato GIS el siguiente ejemplo:
 
 ??? info "Información geográfica relacionada con los recursos hídricos"
     * **Descripción:** Información sobre hidrografía en Cantabria.

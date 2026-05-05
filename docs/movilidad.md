@@ -11,42 +11,42 @@ Listado de endpoints con información relativa al servicio de bicicletas eléctr
     * **Formato:** JSON (Estándar GBFS)
     * **Acceso:** Abierto
     * **Fuente:** NEXTBIKE / Ayto. Santander
-    * **Endpoint:** `https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_ek/es/station_information.json`
+    * **Endpoint:** <https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_ek/es/station_information.json>
 
 ??? info "Tipos de bicicletas eléctricas TUeBICI"
     * **Descripción:** Información sobre el tipo de bicicleta eléctrica de TUeBICI.
     * **Formato:** JSON (Estándar GBFS)
     * **Acceso:** Abierto
     * **Fuente:** NEXTBIKE / Ayto. Santander
-    * **Endpoint:** `https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_ek/es/vehicle_types.json`
+    * **Endpoint:** <https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_ek/es/vehicle_types.json>
 
 ??? info "Estado de las bicicletas libres eléctricas TUeBICI"
     * **Descripción:** Información sobre el estado de cada una de las bicicletas eléctricas de TUeBICI cuando no están ocupadas. Incluye información como la posición, el estado de la carga (current_fuel_percent) o el rango (current_range_meters).
     * **Formato:** JSON (Estándar GBFS)
     * **Acceso:** Abierto
     * **Fuente:** NEXTBIKE / Ayto. Santander
-    * **Endpoint:** `https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_ek/es/free_bike_status.json`
+    * **Endpoint:** <https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_ek/es/free_bike_status.json>
 
 ??? info "Horario de funcionamiento del servicio de bicicletas eléctricas TUeBICI"
     * **Descripción:** Información sobre el horario de funcionamiento de TUeBICI.
     * **Formato:** JSON (Estándar GBFS)
     * **Acceso:** Abierto
     * **Fuente:** NEXTBIKE / Ayto. Santander
-    * **Endpoint:** `https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_ek/es/system_hours.json`
+    * **Endpoint:** <https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_ek/es/system_hours.json>
 
 ??? info "Planes de precios de las bicicletas TUeBICI"
     * **Descripción:** Planes de precios de TUeBICI. Incluye el coste por periodos de tiempo.
     * **Formato:** JSON (Estándar GBFS)
     * **Acceso:** Abierto
     * **Fuente:** NEXTBIKE / Ayto. Santander
-    * **Endpoint:** `https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_ek/es/system_pricing_plans.json`
+    * **Endpoint:** <https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_ek/es/system_pricing_plans.json>
 
 ??? info "Carriles bici de Santander"
     * **Descripción:** Información sobre la localización de los carriles bici de Santander. El parámetro más importante, ayto:WKT describe el objeto geográfico en forma de polilínea con el formato WKT (Well-Known Text).
     * **Formato:** JSON
     * **Acceso:** Abierto
     * **Fuente:** Ayto. Santander
-    * **Endpoint:** `http://datos.santander.es/api/rest/datasets/carril_bici.json`
+    * **Endpoint:** <http://datos.santander.es/api/rest/datasets/carril_bici.json>
 
 
 ## Información del servicio de autobuses de Santander TUS
@@ -62,7 +62,7 @@ Listado de endpoints con información relativa al servicio de bicicletas eléctr
     * **Formato:** JSON
     * **Acceso:** Abierto
     * **Fuente:** TUS / Ayto. Santander
-    * **Endpoint:** `http://datos.santander.es/api/rest/datasets/paradas_bus.json`
+    * **Endpoint:** <http://datos.santander.es/api/rest/datasets/paradas_bus.json>
 
 ??? info "Listado con las líneas de autobús del TUS"
     * **Descripción:** Este recurso contiene la información referente a las líneas de Transporte Urbano en uso dentro del Municipio de Santander. Los campos más importantes son:
@@ -71,7 +71,7 @@ Listado de endpoints con información relativa al servicio de bicicletas eléctr
     * **Formato:** JSON
     * **Acceso:** Abierto
     * **Fuente:** TUS / Ayto. Santander
-    * **Endpoint:** `http://datos.santander.es/api/rest/datasets/lineas_bus.json`
+    * **Endpoint:** <http://datos.santander.es/api/rest/datasets/lineas_bus.json>
 
 ??? info "Listado de Vehículos que conforman la flota del Servicio de Transporte Urbano de Santander"
     * **Descripción:** Este recurso proporciona información sobre los vehículos de la Flota Municipal de Autobuses. Los campos más importantes son:
@@ -85,7 +85,7 @@ Listado de endpoints con información relativa al servicio de bicicletas eléctr
     * **Formato:** JSON
     * **Acceso:** Abierto
     * **Fuente:** TUS / Ayto. Santander
-    * **Endpoint:** `http://datos.santander.es/api/rest/datasets/control_flotas_vehiculos.json`
+    * **Endpoint:** <http://datos.santander.es/api/rest/datasets/control_flotas_vehiculos.json>
 
 ??? info "Pasos por parada de los últimos 10 días"
     * **Descripción:** Este recurso proporciona información sobre el paso por parada de cada vehículo y línea de la Flota Municipal de Autobuses de los últimos 10 días. Se actualiza una vez al dia. Los campos más importantes son:
@@ -97,7 +97,7 @@ Listado de endpoints con información relativa al servicio de bicicletas eléctr
     * **Formato:** JSON
     * **Acceso:** Abierto
     * **Fuente:** TUS / Ayto. Santander
-    * **Endpoint:** `http://datos.santander.es/api/rest/datasets/programacionTUS_pasos_parada_10dias.json`
+    * **Endpoint:** <http://datos.santander.es/api/rest/datasets/programacionTUS_pasos_parada_10dias.json>
  http://datos.santander.es/api/rest/datasets/paradas_bus.json
 
 
@@ -108,21 +108,21 @@ Listado de endpoints con información relativa al servicio de bicicletas eléctr
     * **Formato:** JSON / CSV / EXCEL
     * **Acceso:** Abierto
     * **Fuente:** VIESGO
-    * **Endpoint:** `https://redes-spain.opendatasoft.com/explore/dataset/3-nuevos-puntos-de-recarga-de-vehiculo-electrico-viesgo/information/`
+    * **Endpoint:** <https://redes-spain.opendatasoft.com/explore/dataset/3-nuevos-puntos-de-recarga-de-vehiculo-electrico-viesgo/information/>
 
 ??? info "Consumo de puntos de recarga de vehículo eléctrico"
     * **Descripción:** En este dataset se representa el consumo mensual total de energía activa por municipio de los puntos de recarga de acceso publico de vehículo eléctrico. A estos efectos, se consideran como de acceso publico, aquellos puntos de recarga que tengan contratada una tarifa de acceso de vehículo eléctrico.
     * **Formato:** JSON / CSV / EXCEL
     * **Acceso:** Abierto
     * **Fuente:** VIESGO
-    * **Endpoint:** `https://redes-spain.opendatasoft.com/explore/dataset/5-consumo-mensual-de-puntos-de-recarga-de-ve-viesgo/information/`
+    * **Endpoint:** <https://redes-spain.opendatasoft.com/explore/dataset/5-consumo-mensual-de-puntos-de-recarga-de-ve-viesgo/information/>
 
 ??? info "Puntos de recarga de vehículo eléctrico"
     * **Descripción:** Este dataset muestra la ubicación y potencia máxima admisible de la instalación del total de puntos de recarga de vehículo eléctrico de acceso publico por municipio. A estos efectos, se consideran como de acceso publico, aquellos puntos de recarga que tengan contratada una tarifa de acceso de vehículo eléctrico. 
     * **Formato:** JSON / CSV / EXCEL
     * **Acceso:** Abierto
     * **Fuente:** VIESGO
-    * **Endpoint:** `https://redes-spain.opendatasoft.com/explore/dataset/4-puntos_publicos_de_recarga_de_vehiculos_electricos-viesgo/information/`
+    * **Endpoint:** <https://redes-spain.opendatasoft.com/explore/dataset/4-puntos_publicos_de_recarga_de_vehiculos_electricos-viesgo/information/>
 
 ## Otra información sobre movilidad en Santander
 
@@ -131,23 +131,24 @@ Listado de endpoints con información relativa al servicio de bicicletas eléctr
     * **Formato:** JSON
     * **Acceso:** Abierto
     * **Fuente:** TUS / Ayto. Santander
-    * **Endpoint:** `http://datos.santander.es/resource/?ds=plazas-pmr&id=12eac87c-bf46-48aa-bcc4-20fcf60ffdd2&ft=JSON` 
+    * **Endpoint:** <http://datos.santander.es/resource/?ds=plazas-pmr&id=12eac87c-bf46-48aa-bcc4-20fcf60ffdd2&ft=JSON>
 
 ??? info "Zona 30"
     * **Descripción:** Este conjunto de datos contiene datos geográficos referentes a las calles de Santander definidas como Zonas 30 (dónde los vehículos tienen como límite de velocidad 30 Km/h). Las geometrías usan como sistema de referencia ED50 y están proyectadas en coordenadas UTM.
     * **Formato:** JSON
     * **Acceso:** Abierto
     * **Fuente:** TUS / Ayto. Santander
-    * **Endpoint:** `http://datos.santander.es/resource/?ds=zonas-30&id=092414a7-d54a-44fb-a97b-96341b381f93&ft=JSON`
+    * **Endpoint:** <http://datos.santander.es/resource/?ds=zonas-30&id=092414a7-d54a-44fb-a97b-96341b381f93&ft=JSON>
 
 
 ## Información geográfica de Santander y Cantabria
 
-Información geográfica de Cantabria. La descripción detallada del API y cómo acceder a través de programas gratuitos como ArcGIS se encuentra en `https://www.territoriodecantabria.es/rest-api`, y el API REST puede encontrarse directamente en `https://geoservicios.cantabria.es/inspire/rest/services`. Se puede encontrar en formato GIS el siguiente ejemplo:
+Información geográfica de Cantabria. La descripción detallada del API y cómo acceder a través de programas gratuitos como ArcGIS se encuentra en <https://www.territoriodecantabria.es/rest-api>, y el API REST puede encontrarse directamente en `
+<https://geoservicios.cantabria.es/inspire/rest/service>`. Se puede encontrar en formato GIS el siguiente ejemplo:
 
 ??? info "Información geográfica relacionada con la movilidad ciclista"
     * **Descripción:** Información sobre movilidad ciclista en el municipio de Santander.
     * **Formato:** JSON/SOAP (Estándar GIS)
     * **Acceso:** Abierto
     * **Fuente:** Gobierno de Cantabria / Ayto. Santander
-    * **Endpoint:** `https://geoservicios.cantabria.es/inspire/rest/services/Movilidad/MapServer`
+    * **Endpoint:** <https://geoservicios.cantabria.es/inspire/rest/services/Movilidad/MapServer>
