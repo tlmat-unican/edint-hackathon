@@ -1,0 +1,857 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="..">
+      
+      
+        <link rel="next" href="../medioambiente/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>Caso 1 - Movilidad Inteligente - Hackathon EDINT Santander - Datos que transforman ciudades</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="amber">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#caso-de-uso-1-movilidad-inteligente" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Hackathon EDINT Santander - Datos que transforman ciudades" class="md-header__button md-logo" aria-label="Hackathon EDINT Santander - Datos que transforman ciudades" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Hackathon EDINT Santander - Datos que transforman ciudades
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Caso 1 - Movilidad Inteligente
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Hackathon EDINT Santander - Datos que transforman ciudades" class="md-nav__button md-logo" aria-label="Hackathon EDINT Santander - Datos que transforman ciudades" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Hackathon EDINT Santander - Datos que transforman ciudades
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inicio
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://www.santander.es/system/files/servicio-ciudadano-empresa/anexo/2026/05/basesparticipacionhackatonedint_040526.pdf" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bases de Participación
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Catálogo de Datos
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Catálogo de Datos
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Caso 1 - Movilidad Inteligente
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Caso 1 - Movilidad Inteligente
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#informacion-del-servicio-de-bicicletas-electricas-santander-tuebici" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Información del servicio de bicicletas eléctricas Santander TUeBICI
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#informacion-del-servicio-de-autobuses-de-santander-tus" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Información del servicio de autobuses de Santander TUS
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#movilidad-electrica" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Movilidad eléctrica
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#otra-informacion-sobre-movilidad-en-santander" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Otra información sobre movilidad en Santander
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#informacion-geografica-de-santander-y-cantabria" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Información geográfica de Santander y Cantabria
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../medioambiente/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Caso 2 - Sostenibilidad Medioambiental
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../economia/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Caso 3 - Actividad Económica
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#informacion-del-servicio-de-bicicletas-electricas-santander-tuebici" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Información del servicio de bicicletas eléctricas Santander TUeBICI
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#informacion-del-servicio-de-autobuses-de-santander-tus" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Información del servicio de autobuses de Santander TUS
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#movilidad-electrica" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Movilidad eléctrica
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#otra-informacion-sobre-movilidad-en-santander" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Otra información sobre movilidad en Santander
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#informacion-geografica-de-santander-y-cantabria" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Información geográfica de Santander y Cantabria
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="caso-de-uso-1-movilidad-inteligente">Caso de Uso 1: Movilidad Inteligente</h1>
+<p>Conjuntos de datos relacionados con el caso de uso "Movilidad Inteligente" en la ciudad de Santander.</p>
+<h2 id="informacion-del-servicio-de-bicicletas-electricas-santander-tuebici">Información del servicio de bicicletas eléctricas Santander TUeBICI</h2>
+<p>Listado de endpoints con información relativa al servicio de bicicletas eléctricas de TUeBICI e información relacionada como la situación de los carriles bici en Santander.</p>
+<details class="info">
+<summary>Estado de las estaciones TUeBICI</summary>
+<ul>
+<li><strong>Descripción:</strong> Datos de estado e información de las estaciones de bicicletas, incluyendo el identificador, su localización y la capacidad total.</li>
+<li><strong>Formato:</strong> JSON (Estándar GBFS)</li>
+<li><strong>Acceso:</strong> Abierto</li>
+<li><strong>Fuente:</strong> NEXTBIKE / Ayto. Santander</li>
+<li><strong>Endpoint:</strong> <a href="https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_ek/es/station_information.json">https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_ek/es/station_information.json</a></li>
+</ul>
+</details>
+<details class="info">
+<summary>Tipos de bicicletas eléctricas TUeBICI</summary>
+<ul>
+<li><strong>Descripción:</strong> Información sobre el tipo de bicicleta eléctrica de TUeBICI.</li>
+<li><strong>Formato:</strong> JSON (Estándar GBFS)</li>
+<li><strong>Acceso:</strong> Abierto</li>
+<li><strong>Fuente:</strong> NEXTBIKE / Ayto. Santander</li>
+<li><strong>Endpoint:</strong> <a href="https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_ek/es/vehicle_types.json">https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_ek/es/vehicle_types.json</a></li>
+</ul>
+</details>
+<details class="info">
+<summary>Estado de las bicicletas libres eléctricas TUeBICI</summary>
+<ul>
+<li><strong>Descripción:</strong> Información sobre el estado de cada una de las bicicletas eléctricas de TUeBICI cuando no están ocupadas. Incluye información como la posición, el estado de la carga (current_fuel_percent) o el rango (current_range_meters).</li>
+<li><strong>Formato:</strong> JSON (Estándar GBFS)</li>
+<li><strong>Acceso:</strong> Abierto</li>
+<li><strong>Fuente:</strong> NEXTBIKE / Ayto. Santander</li>
+<li><strong>Endpoint:</strong> <a href="https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_ek/es/free_bike_status.json">https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_ek/es/free_bike_status.json</a></li>
+</ul>
+</details>
+<details class="info">
+<summary>Horario de funcionamiento del servicio de bicicletas eléctricas TUeBICI</summary>
+<ul>
+<li><strong>Descripción:</strong> Información sobre el horario de funcionamiento de TUeBICI.</li>
+<li><strong>Formato:</strong> JSON (Estándar GBFS)</li>
+<li><strong>Acceso:</strong> Abierto</li>
+<li><strong>Fuente:</strong> NEXTBIKE / Ayto. Santander</li>
+<li><strong>Endpoint:</strong> <a href="https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_ek/es/system_hours.json">https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_ek/es/system_hours.json</a></li>
+</ul>
+</details>
+<details class="info">
+<summary>Planes de precios de las bicicletas TUeBICI</summary>
+<ul>
+<li><strong>Descripción:</strong> Planes de precios de TUeBICI. Incluye el coste por periodos de tiempo.</li>
+<li><strong>Formato:</strong> JSON (Estándar GBFS)</li>
+<li><strong>Acceso:</strong> Abierto</li>
+<li><strong>Fuente:</strong> NEXTBIKE / Ayto. Santander</li>
+<li><strong>Endpoint:</strong> <a href="https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_ek/es/system_pricing_plans.json">https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_ek/es/system_pricing_plans.json</a></li>
+</ul>
+</details>
+<details class="info">
+<summary>Carriles bici de Santander</summary>
+<ul>
+<li><strong>Descripción:</strong> Información sobre la localización de los carriles bici de Santander. El parámetro más importante, ayto:WKT describe el objeto geográfico en forma de polilínea con el formato WKT (Well-Known Text).</li>
+<li><strong>Formato:</strong> JSON</li>
+<li><strong>Acceso:</strong> Abierto</li>
+<li><strong>Fuente:</strong> Ayto. Santander</li>
+<li><strong>Endpoint:</strong> <a href="http://datos.santander.es/api/rest/datasets/carril_bici.json">http://datos.santander.es/api/rest/datasets/carril_bici.json</a></li>
+</ul>
+</details>
+<details class="info">
+<summary>Datos históricos sobre el estado de las bicicletas</summary>
+<ul>
+<li>Descripción: Datos históricos (Oct-24 a Feb-25) sobre el estado de las estaciones de bicicletas, incluyendo su identificador, su localización, disponibilidad de bicicletas y capacidad total.</li>
+<li>Formato: JSON (Estándar GBFS)</li>
+<li>Acceso: Abierto</li>
+<li>Fuente: NEXTBIKE / Ayto. Santander</li>
+<li>Endpoint: https://github.com/Sedimark/hackathon-santander-datasets</li>
+</ul>
+</details>
+<h2 id="informacion-del-servicio-de-autobuses-de-santander-tus">Información del servicio de autobuses de Santander TUS</h2>
+<details class="info">
+<summary>Listado de las paradas de autobús</summary>
+<ul>
+<li><strong>Descripción:</strong> Este recurso contiene todos los datos de la Red de paradas de Autobus desplegadas en el Municipio de Santander y su posición geográfica. Los campos más importantes son:<ul>
+<li>wgs84_pos:long: longitud de la posición de las paradas.</li>
+<li>wgs84_pos:lat: latitud de la posición de las paradas.</li>
+<li>ayto:numero: identificador de la parada.</li>
+<li>vivo:address1: dirección dónde se encuentra la parada.</li>
+<li>ayto:sentido: sentido de los autobuses que paran en la parada.</li>
+</ul>
+</li>
+<li><strong>Formato:</strong> JSON</li>
+<li><strong>Acceso:</strong> Abierto</li>
+<li><strong>Fuente:</strong> TUS / Ayto. Santander</li>
+<li><strong>Endpoint:</strong> <a href="http://datos.santander.es/api/rest/datasets/paradas_bus.json">http://datos.santander.es/api/rest/datasets/paradas_bus.json</a></li>
+</ul>
+</details>
+<details class="info">
+<summary>Listado con las líneas de autobús del TUS</summary>
+<ul>
+<li><strong>Descripción:</strong> Este recurso contiene la información referente a las líneas de Transporte Urbano en uso dentro del Municipio de Santander. Los campos más importantes son:<ul>
+<li>ayto:numero: identificador de la línea.</li>
+<li>dc:name: nombre de la línea que incluye parada inicial y final.</li>
+</ul>
+</li>
+<li><strong>Formato:</strong> JSON</li>
+<li><strong>Acceso:</strong> Abierto</li>
+<li><strong>Fuente:</strong> TUS / Ayto. Santander</li>
+<li><strong>Endpoint:</strong> <a href="http://datos.santander.es/api/rest/datasets/lineas_bus.json">http://datos.santander.es/api/rest/datasets/lineas_bus.json</a></li>
+</ul>
+</details>
+<details class="info">
+<summary>Listado de Vehículos que conforman la flota del Servicio de Transporte Urbano de Santander</summary>
+<ul>
+<li><strong>Descripción:</strong> Este recurso proporciona información sobre los vehículos de la Flota Municipal de Autobuses. Los campos más importantes son:<ul>
+<li>ayto:PlazasDePie: plazas disponibles por autobús.</li>
+<li>ayto:longitud: tamaño del autobús.</li>
+<li>ayto:identifier: identificador único del autobús.</li>
+<li>ayto:Combustible: tipo de motor que utiliza el autobús (e.g. HIBRIDO, ELECTRICO, DIESEL).</li>
+<li>dc:modified: última fecha de actualización.</li>
+<li>uri: endpoint que contiene información únicamente sobre ese elemento.
+Para acceder a las páginas y elegir el número de elementos por página hay que utilizar los parámetros de URL "items" y "page". Por ejemplo, en el endpoint 'http://datos.santander.es/api/rest/datasets/control_flotas_vehiculos.json?items=50&amp;page=1' obtendremos la primera página resultante de de agrupar todos los elementos existentes en grupos de 50. En cada petición se incluye la información del número de páginas así como el total de elementos y la página actual.</li>
+</ul>
+</li>
+<li><strong>Formato:</strong> JSON</li>
+<li><strong>Acceso:</strong> Abierto</li>
+<li><strong>Fuente:</strong> TUS / Ayto. Santander</li>
+<li><strong>Endpoint:</strong> <a href="http://datos.santander.es/api/rest/datasets/control_flotas_vehiculos.json">http://datos.santander.es/api/rest/datasets/control_flotas_vehiculos.json</a></li>
+</ul>
+</details>
+<details class="info">
+<summary>Pasos por parada de los últimos 10 días</summary>
+<ul>
+<li><strong>Descripción:</strong> Este recurso proporciona información sobre el paso por parada de cada vehículo y línea de la Flota Municipal de Autobuses de los últimos 10 días. Se actualiza una vez al dia. Los campos más importantes son:<ul>
+<li>ayto:instante: timestamp del paso por parada.</li>
+<li>ayto:linea: línea a la que pertenece el vehículo.</li>
+<li>ayto:descparada: descripción de la localización de la parada.</li>
+<li>ayto:parada: identificador de la parada.
+Para acceder a las páginas y elegir el número de elementos por página hay que utilizar los parámetros de URL "items" y "page". Por ejemplo, en el endpoint 'http://datos.santander.es/api/rest/datasets/programacionTUS_pasos_parada_10dias.json?items=50&amp;page=1' obtendremos la primera página resultante de de agrupar todos los elementos existentes en grupos de 50. En cada petición se incluye la información del número de páginas así como el total de elementos y la página actual.</li>
+</ul>
+</li>
+<li><strong>Formato:</strong> JSON</li>
+<li><strong>Acceso:</strong> Abierto</li>
+<li><strong>Fuente:</strong> TUS / Ayto. Santander</li>
+<li><strong>Endpoint:</strong> <a href="http://datos.santander.es/api/rest/datasets/programacionTUS_pasos_parada_10dias.json">http://datos.santander.es/api/rest/datasets/programacionTUS_pasos_parada_10dias.json</a></li>
+</ul>
+</details>
+<p>http://datos.santander.es/api/rest/datasets/paradas_bus.json</p>
+<h2 id="movilidad-electrica">Movilidad eléctrica</h2>
+<details class="info">
+<summary>Nuevos puntos de recarga de vehículo eléctrico</summary>
+<ul>
+<li><strong>Descripción:</strong> Este dataset contiene el número de nuevos puntos de recarga de vehículo eléctrico con acceso público dados de alta cada mes, con detalle a nivel de municipio. A estos efectos, se consideran como de acceso publico, aquellos puntos de recarga que tengan contratada una tarifa de acceso de vehículo eléctrico.</li>
+<li><strong>Formato:</strong> JSON / CSV / EXCEL</li>
+<li><strong>Acceso:</strong> Abierto</li>
+<li><strong>Fuente:</strong> VIESGO</li>
+<li><strong>Endpoint:</strong> <a href="https://redes-spain.opendatasoft.com/explore/dataset/3-nuevos-puntos-de-recarga-de-vehiculo-electrico-viesgo/information/">https://redes-spain.opendatasoft.com/explore/dataset/3-nuevos-puntos-de-recarga-de-vehiculo-electrico-viesgo/information/</a></li>
+</ul>
+</details>
+<details class="info">
+<summary>Consumo de puntos de recarga de vehículo eléctrico</summary>
+<ul>
+<li><strong>Descripción:</strong> En este dataset se representa el consumo mensual total de energía activa por municipio de los puntos de recarga de acceso publico de vehículo eléctrico. A estos efectos, se consideran como de acceso publico, aquellos puntos de recarga que tengan contratada una tarifa de acceso de vehículo eléctrico.</li>
+<li><strong>Formato:</strong> JSON / CSV / EXCEL</li>
+<li><strong>Acceso:</strong> Abierto</li>
+<li><strong>Fuente:</strong> VIESGO</li>
+<li><strong>Endpoint:</strong> <a href="https://redes-spain.opendatasoft.com/explore/dataset/5-consumo-mensual-de-puntos-de-recarga-de-ve-viesgo/information/">https://redes-spain.opendatasoft.com/explore/dataset/5-consumo-mensual-de-puntos-de-recarga-de-ve-viesgo/information/</a></li>
+</ul>
+</details>
+<details class="info">
+<summary>Puntos de recarga de vehículo eléctrico</summary>
+<ul>
+<li><strong>Descripción:</strong> Este dataset muestra la ubicación y potencia máxima admisible de la instalación del total de puntos de recarga de vehículo eléctrico de acceso publico por municipio. A estos efectos, se consideran como de acceso publico, aquellos puntos de recarga que tengan contratada una tarifa de acceso de vehículo eléctrico. </li>
+<li><strong>Formato:</strong> JSON / CSV / EXCEL</li>
+<li><strong>Acceso:</strong> Abierto</li>
+<li><strong>Fuente:</strong> VIESGO</li>
+<li><strong>Endpoint:</strong> <a href="https://redes-spain.opendatasoft.com/explore/dataset/4-puntos_publicos_de_recarga_de_vehiculos_electricos-viesgo/information/">https://redes-spain.opendatasoft.com/explore/dataset/4-puntos_publicos_de_recarga_de_vehiculos_electricos-viesgo/information/</a></li>
+</ul>
+</details>
+<h2 id="otra-informacion-sobre-movilidad-en-santander">Otra información sobre movilidad en Santander</h2>
+<details class="info">
+<summary>Plazas para Personas con Movilidad Reducida</summary>
+<ul>
+<li><strong>Descripción:</strong> Este recurso proporciona información sobre las plazas de aparcamiento para personas con movilidad reducida en el municipio de Santander. Entre otros datos se incluye la posición Geográfica de cada plaza.</li>
+<li><strong>Formato:</strong> JSON</li>
+<li><strong>Acceso:</strong> Abierto</li>
+<li><strong>Fuente:</strong> TUS / Ayto. Santander</li>
+<li><strong>Endpoint:</strong> <a href="http://datos.santander.es/resource/?ds=plazas-pmr&amp;id=12eac87c-bf46-48aa-bcc4-20fcf60ffdd2&amp;ft=JSON">http://datos.santander.es/resource/?ds=plazas-pmr&amp;id=12eac87c-bf46-48aa-bcc4-20fcf60ffdd2&amp;ft=JSON</a></li>
+</ul>
+</details>
+<details class="info">
+<summary>Zona 30</summary>
+<ul>
+<li><strong>Descripción:</strong> Este conjunto de datos contiene datos geográficos referentes a las calles de Santander definidas como Zonas 30 (dónde los vehículos tienen como límite de velocidad 30 Km/h). Las geometrías usan como sistema de referencia ED50 y están proyectadas en coordenadas UTM.</li>
+<li><strong>Formato:</strong> JSON</li>
+<li><strong>Acceso:</strong> Abierto</li>
+<li><strong>Fuente:</strong> TUS / Ayto. Santander</li>
+<li><strong>Endpoint:</strong> <a href="http://datos.santander.es/resource/?ds=zonas-30&amp;id=092414a7-d54a-44fb-a97b-96341b381f93&amp;ft=JSON">http://datos.santander.es/resource/?ds=zonas-30&amp;id=092414a7-d54a-44fb-a97b-96341b381f93&amp;ft=JSON</a></li>
+</ul>
+</details>
+<h2 id="informacion-geografica-de-santander-y-cantabria">Información geográfica de Santander y Cantabria</h2>
+<p>Información geográfica de Cantabria. La descripción detallada del API y cómo acceder a través de programas gratuitos como ArcGIS se encuentra en <a href="https://www.territoriodecantabria.es/rest-api">https://www.territoriodecantabria.es/rest-api</a>, y el API REST puede encontrarse directamente en <code>&lt;https://geoservicios.cantabria.es/inspire/rest/service&gt;</code>. Se puede encontrar en formato GIS el siguiente ejemplo:</p>
+<details class="info">
+<summary>Información geográfica relacionada con la movilidad ciclista</summary>
+<ul>
+<li><strong>Descripción:</strong> Información sobre movilidad ciclista en el municipio de Santander.</li>
+<li><strong>Formato:</strong> JSON/SOAP (Estándar GIS)</li>
+<li><strong>Acceso:</strong> Abierto</li>
+<li><strong>Fuente:</strong> Gobierno de Cantabria / Ayto. Santander</li>
+<li><strong>Endpoint:</strong> <a href="https://geoservicios.cantabria.es/inspire/rest/services/Movilidad/MapServer">https://geoservicios.cantabria.es/inspire/rest/services/Movilidad/MapServer</a></li>
+</ul>
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": [], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
