@@ -48,6 +48,13 @@ Listado de endpoints con información relativa al servicio de bicicletas eléctr
     * **Fuente:** Ayto. Santander
     * **Endpoint:** <http://datos.santander.es/api/rest/datasets/carril_bici.json>
 
+??? info "Datos históricos sobre el estado de las bicicletas"
+    * Descripción: Datos históricos (Oct-24 a Feb-25) sobre el estado de las estaciones de bicicletas, incluyendo su identificador, su localización, disponibilidad de bicicletas y capacidad total.
+    * Formato: JSON (Estándar GBFS)
+    * Acceso: Abierto
+    * Fuente: NEXTBIKE / Ayto. Santander
+    * Endpoint: https://github.com/Sedimark/hackathon-santander-datasets
+
 
 ## Información del servicio de autobuses de Santander TUS
 
